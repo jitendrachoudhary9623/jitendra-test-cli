@@ -1,7 +1,7 @@
 jitendra-test-cli
 =================
 
-This is my test cli
+This repo was only created to learn how to publish an npm module
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
 [![Version](https://img.shields.io/npm/v/jitendra-test-cli.svg)](https://npmjs.org/package/jitendra-test-cli)
