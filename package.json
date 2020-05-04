@@ -1,0 +1,43 @@
+{
+  "name": "jitendra-test-cli",
+  "description": "This is my test cli",
+  "version": "0.0.0",
+  "author": "Jitendra Choudhary",
+  "bin": {
+    "jitendra-test-cli": "./bin/run"
+  },
+  "bugs": "https://github.com/jitendrasteam/jitendra-test-cli/issues",
+  "dependencies": {
+    "@oclif/command": "^1.6.0",
+    "@oclif/config": "^1.15.1",
+    "@oclif/plugin-help": "^2.2.3"
+  },
+  "devDependencies": {
+    "@oclif/dev-cli": "^1.22.2",
+    "eslint": "^5.16.0",
+    "eslint-config-oclif": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "/bin",
+    "/src"
+  ],
+  "homepage": "https://github.com/jitendrasteam/jitendra-test-cli",
+  "keywords": [
+    "oclif"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "oclif": {
+    "bin": "jitendra-test-cli"
+  },
+  "repository": "jitendra-test-cli",
+  "scripts": {
+    "posttest": "eslint .",
+    "prepack": "oclif-dev readme",
+    "test": "echo NO TESTS",
+    "version": "oclif-dev readme && git add README.md"
+  }
+}
